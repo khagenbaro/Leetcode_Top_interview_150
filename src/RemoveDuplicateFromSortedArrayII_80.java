@@ -1,8 +1,13 @@
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
 public class RemoveDuplicateFromSortedArrayII_80 {
 
     public static void main(String[] args) {
         int[] arr = {0,0,1,1,1,1,2,3,3};
         System.out.println(removeDuplicates(arr));
+        Set<Integer> mySet=new HashSet<>();
     }
     public static  int removeDuplicates(int[] nums) {
         int n = nums.length;
