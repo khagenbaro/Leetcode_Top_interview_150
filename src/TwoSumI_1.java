@@ -18,7 +18,6 @@ public class TwoSumI_1 {
             if(intMap.containsKey(complement) && intMap.get(complement)!= i){
                 return new int[]{i, intMap.get(complement)};
             }
-
         }
         return null;
     }
